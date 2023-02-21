@@ -1,0 +1,71 @@
+:host{
+    display: block;
+    padding: 4rem 2rem 6rem;
+    background-color: var(--intense-blue);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.title{
+    font-size: 4rem;
+    padding:  0 0 2rem;
+    text-align: center;
+    font-style: italic;
+    color: var(--blue);
+    text-decoration: underline;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.name{
+grid-row: 3/4;
+padding: 2rem;
+color: white;
+font-size: 2rem;
+margin-top: 3rem;
+outline: 1px solid white;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+.name span:nth-of-type(1) span {
+    font-size: 3rem;
+    color: var(--blue);
+}
+.name span:nth-of-type(2) {
+    display: inline-block;
+    color: var(--blue);
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 10px 0px;
+    letter-spacing: 8px;
+    text-shadow: 10px 8px 10px var(--black);
+}
+.profile{
+    width: 300px;
+    height: 300px;
+    grid-row: 2/3;
+    margin: 0 auto;
+    position: relative;
+}
+
+.profile .profile-bg{
+height: 95%;
+width: 100%;
+bottom: 0%;
+position: absolute;
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+}
+
+:host.pc{
+    padding: 4rem 2rem 10rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100% 0% 90%);
+}
+

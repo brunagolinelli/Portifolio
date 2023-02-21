@@ -1,0 +1,32 @@
+:root{
+    --blue: #000518;
+    --blue-light: #00A9F1;
+    --intense-blue: #006a9b;
+    --suave-blue: #03bcfd;
+    --black: #212121;
+}
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1500px;
+    outline: 0px solid white;
+}
+
+h1{
+    padding: 1rem 0;
+    text-align: center;
+    letter-spacing: 1px;
+    color: var( --intense-blue);
+    outline: 1px solid white;
+    font-family: 'Ubuntu', sans-serif;
+}
