@@ -9,6 +9,4 @@ Styled components
 Material UI
 Surge
 
-http://spotty-cook.surge.sh
-
 Bruna Nallis
