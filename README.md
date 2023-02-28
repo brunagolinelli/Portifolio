@@ -4,9 +4,13 @@ O projeto é uma estrutura de portifolio profissional de desenvolvedora contendo
 como escolaridade, alguns projetos já realizados, quem sou eu e contatos.
 
 Tecnologias Utilizadas:
-Angulas 13
-Styled components
-Material UI
-Surge
+
+Angulas 13;
+
+Styled components;
+
+Material UI;
+
+Surge;
 
 Bruna Nallis
