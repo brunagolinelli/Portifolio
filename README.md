@@ -2,6 +2,8 @@
 
 Portfólio profissional desenvolvido com React, TypeScript e Material UI v5.
 
+🌐 **Acesse o portfólio online:** [https://bruna-nallis-portfolio.surge.sh](https://bruna-nallis-portfolio.surge.sh)
+
 ## 🚀 Tecnologias Utilizadas
 
 - **React 18** - Biblioteca JavaScript para construção de interfaces
@@ -46,6 +48,18 @@ npm run dev
 - `npm run build` - Cria build de produção
 - `npm run preview` - Preview do build de produção
 - `npm run lint` - Executa o linter
+
+## 🚀 Deploy no Surge
+
+O portfólio está hospedado no Surge e pode ser acessado em:
+**https://bruna-nallis-portfolio.surge.sh**
+
+Para atualizar o deploy:
+
+1. Faça o build: `npm run build`
+2. Faça o deploy: `surge dist/ bruna-nallis-portfolio.surge.sh`
+
+Para mais detalhes, consulte [DEPLOY.md](./DEPLOY.md)
 
 ## 🏗️ Arquitetura
 

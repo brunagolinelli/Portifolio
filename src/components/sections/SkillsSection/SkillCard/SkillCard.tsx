@@ -1,4 +1,4 @@
-import { Box, Typography, Paper } from '@mui/material'
+import { Typography, Paper } from '@mui/material'
 import { memo } from 'react'
 import { Skill } from '@/types'
 

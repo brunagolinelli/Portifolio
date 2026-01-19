@@ -1,2 +1,3 @@
-export { apiService, ApiService, ApiConfig } from './api'
+export { apiService } from './api'
+export type { ApiConfig } from './api'
 
