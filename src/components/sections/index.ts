@@ -1,0 +1,13 @@
+export { About } from './About'
+export type { AboutProps } from './About'
+export { HeroSection } from './HeroSection'
+export type { HeroSectionProps } from './HeroSection'
+export { SkillsSection } from './SkillsSection'
+export type { SkillsSectionProps } from './SkillsSection'
+export { ProjectsSection } from './ProjectsSection'
+export type { ProjectsSectionProps } from './ProjectsSection'
+export { ExperienceSection } from './ExperienceSection'
+export type { ExperienceSectionProps } from './ExperienceSection'
+export { ContactSection } from './ContactSection'
+export type { ContactSectionProps } from './ContactSection'
+
