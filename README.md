@@ -96,3 +96,4 @@ O projeto suporta modo **light** e **dark**. O tema pode ser alternado através 
 ## 📝 Desenvolvido por
 
 Bruna Nallis
+Link de acesso: https://bruna-nallis-portfolio.surge.sh
